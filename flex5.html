@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Wrap Example</title>
+    <style>
+        .container1{
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .container2 {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .container3 {
+            display: flex;
+            flex-wrap: wrap-;
+            gap: 20px;
+            padding: 20px;
+        }
+
+
+        .item {
+            background-color: cyan;
+            padding: 10px 20px;
+            width: 50px; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container1">
+        <div class="item">項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+    </div>
+    <div class="container2">
+        <div class="item">項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+    </div>
+    <div class="container3">
+        <div class="item">項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+    </div>
+
+</body>
+</html>

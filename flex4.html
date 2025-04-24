@@ -1,0 +1,80 @@
+﻿
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>Align Baseline Example</title>
+    <style>
+
+        .container1 {
+            display: flex;
+            align-items: stretch;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .container2 {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .container3 {
+            display: flex;
+            align-items: flex-end;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .container4 {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .container5 {
+            display: flex;
+            align-items: baseline;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .item {
+            background-color: cyan;
+            padding: 10px 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container1">
+        <div class="item">項目1<br>項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+    </div>
+    <div class="container2">
+        <div class="item">項目1<br>項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+    </div>
+    <div class="container3">
+        <div class="item">項目1<br>項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+    </div>
+    <div class="container4">
+        <div class="item">項目1<br>項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+    </div>
+    <div class="container5">
+        <div class="item">項目1<br>項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+    </div>
+
+</body>
+</html>

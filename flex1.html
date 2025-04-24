@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Column Layout</title>
+    <style>
+        .container {
+            display: flex;
+            
+            padding: 20px;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column; /* 垂直排列 */
+            gap: 20px;
+        }
+
+        .item {
+            background-color: cyan;
+            padding: 10px 20px;
+            width: 200px; /* 固定寬度讓每個項目一樣寬 */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="column">
+            <div class="item">項目1</div>
+            <div class="item">項目2</div>
+            <div class="item">項目3</div>
+        </div>
+    </div>
+
+</body>
+</html>

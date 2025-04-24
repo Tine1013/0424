@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>花卉展示</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .box {
+            width: 300px; /* 放大 50% */
+            height: 75px;
+            background-color: aqua;
+            margin: 2px;
+            text-align: center;
+            font-size: 1.5em;
+            line-height: 75px;
+        }
+
+            .box img {
+                width: 100%;
+                height: 300px; /* 正方形 */
+                object-fit: cover;
+                display: block;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="box">百合花</div>
+            <div class="box">野薑花</div>
+            <div class="box">水仙花</div>
+        </div>
+        <div class="row">
+            <div class="box">
+                <img src="https://www.fe-tw.com/archive/image/product3/images/fa079_630.486.jpg" alt="百合花">
+            </div>
+            <div class="box">
+                <img src="https://parks.gov.taipei/upload/m3s1/351685FB-A463-4BEA-80FD-00836185C6A3.jpg" alt="野薑花">
+            </div>
+            <div class="box">
+                <img src="https://shoplineimg.com/62cb90c69730d2004d2343f2/6628597cd447ff00205f6214/750x.jpg?" alt="水仙花">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
